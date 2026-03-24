@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavatharani Pasupathy | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">BP</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <p class="greeting">Hi, my name is</p>
+            <h1>Bhavatharani Pasupathy</h1>
+            <h2>Aspiring Java Developer | Data Science Enthusiast</h2>
+            <p style="max-width: 540px; margin-bottom: 40px;">I'm a Computer Science student at Sathyabama Institute of Science and Technology, class of 2027. I specialize in building robust Java applications and exploring data-driven insights.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2 style="display: flex; align-items: center; gap: 10px;">
+                <span style="color: var(--accent-color); font-size: 1.2rem;">01.</span> About Me
+            </h2>
+            <div style="margin-top: 30px; max-width: 700px;">
+                <div class="about-text">
+                    <p>HelloWorld! I'm Bhavatharani, a passionate Computer Science student dedicated to mastering the art of software development. My journey began with a curiosity about how systems work, which led me to the world of Java and Data Science.</p>
+                    <p style="margin-top: 20px;">Currently, I'm pursuing my degree at Sathyabama Institute, where I'm honing my skills in backend development and analytical modeling. I love solving complex problems and turning ideas into functional, efficient code.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2 style="display: flex; align-items: center; gap: 10px;">
+                <span style="color: var(--accent-color); font-size: 1.2rem;">02.</span> Technical Skills
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-card">Java</div>
+                <div class="skill-card">Python</div>
+                <div class="skill-card">C</div>
+                <div class="skill-card">SQL</div>
+                <div class="skill-card">Web Development (HTML, CSS, JS, Backend)</div>
+                <div class="skill-card">Machine Learning</div>
+                <div class="skill-card">GitHub</div>
+                <div class="skill-card">VS Code</div>
+                <div class="skill-card">Spring</div>
+                <div class="skill-card">MS Excel</div>
+                <div class="skill-card">MS Word</div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2 style="display: flex; align-items: center; gap: 10px;">
+                <span style="color: var(--accent-color); font-size: 1.2rem;">03.</span> Featured Projects
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div style="height: 200px; background: #172a45; overflow: hidden;">
+                         <img src="assets/project_1.png" alt="Exam Management System" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.7; transition: var(--transition);">
+                    </div>
+                    <div class="project-info">
+                        <h3>Exam Management System</h3>
+                        <p>A robust backend application developed to streamline the examination process, including scheduling, grading, and result generation.</p>
+                        <ul class="project-tech">
+                            <li>Java</li>
+                            <li>Spring Boot</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div style="height: 200px; background: #e2e8f0; overflow: hidden; display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                         🍔
+                    </div>
+                    <div class="project-info">
+                        <h3>Online Food Ordering System</h3>
+                        <p>A comprehensive full-stack application featuring a dynamic frontend for users and a robust backend for order management and tracking.</p>
+                        <ul class="project-tech">
+                            <li>Java</li>
+                            <li>Servlet</li>
+                            <li>JSP</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div style="height: 200px; background: #e2e8f0; overflow: hidden; display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                         💬
+                    </div>
+                    <div class="project-info">
+                        <h3>TCP Chat Application</h3>
+                        <p>A multi-client chat system implemented using Python socket programming, enabling real-time communication over TCP networks.</p>
+                        <ul class="project-tech">
+                            <li>Python</li>
+                            <li>Sockets</li>
+                            <li>Threading</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Resume -->
+        <section id="certifications">
+             <h2 style="display: flex; align-items: center; gap: 10px;">
+                <span style="color: var(--accent-color); font-size: 1.2rem;">04.</span> Certifications
+            </h2>
+            <div style="margin-top: 30px;">
+                <div class="card" style="background: var(--secondary-bg); padding: 30px; border-radius: 8px; border: 1px solid rgba(0,0,0,0.05); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05); max-width: 600px;">
+                    <h3 style="margin-bottom: 20px;">Professional Achievements</h3>
+                    <ul style="color: var(--text-secondary); line-height: 2; list-style: disc; padding-left: 20px;">
+                        <li>Oracle Certified Associate, Java SE 8</li>
+                        <li>Google Data Analytics Professional Certificate</li>
+                        <li>HackerRank Problem Solving (Basic)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" style="text-align: center;">
+            <p style="color: var(--accent-color); font-size: 1rem; margin-bottom: 20px;">05. What's Next?</p>
+            <h2 style="font-size: clamp(30px, 5vw, 50px); margin-bottom: 25px;">Get In Touch</h2>
+            <p style="max-width: 500px; margin: 0 auto 40px;">I'm currently looking for internship opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+            
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn primary" style="width: fit-content; align-self: center;">Say Hello</button>
+            </form>
+        </section>
+    </main>
+
+    <footer style="padding: 40px 0; text-align: center; border-top: 1px solid rgba(100, 255, 218, 0.1);">
+        <p style="font-size: 0.8rem;">Designed & Built by Bhavatharani Pasupathy &copy; 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
